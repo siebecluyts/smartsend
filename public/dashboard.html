@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/css/dashboard.css">
+</head>
+<body>
+  <div id="profile" class="profile-header"></div>
+  
+  <div id="main-container">
+    <div id="user-list" class="user-list">
+      <h3>Users</h3>
+      <!-- User buttons will be dynamically added here -->
+    </div>
+    <div id="chat-container">
+      <div id="chat-header" class="chat-header">
+        <!-- Chat header will be dynamically updated -->
+      </div>
+      <div id="message-list" class="message-list">
+        <!-- Messages will be dynamically added here -->
+      </div>
+      <div class="message-input-container">
+        <input type="text" id="message-input" placeholder="Type your message here">
+        <button id="send-message">Send</button>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="/js/dashboard.js"></script>
+</html>
